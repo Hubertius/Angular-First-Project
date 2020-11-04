@@ -1,0 +1,41 @@
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  height: 10%;
+  left:0px;
+  padding: 10px;
+  background-color:#00BFFF;
+  z-index: 1;
+}
+.main_footer > div{
+  display:inline-block;
+  vertical-align: middle;
+}
+.main_nav{
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 500px);
+  vertical-align: middle;
+}
+.footer-list{
+  display: inline-block;
+  list-style: none;
+  text-align: right;
+}
+.footer-list-element{
+  padding: 20px;
+  display: inline-block;
+}
+.footer-list-element a{
+  text-decoration: none;
+  color: black;
+}
+.footer-list-element a:hover,
+.footer-list-element a:active{
+  background-color:red;
+  color: white;
+  font-weight: bold;
+  border: 10px solid red;
+  border-radius: 8px;
+}
